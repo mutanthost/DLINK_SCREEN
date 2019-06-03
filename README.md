@@ -22,5 +22,5 @@ alias look='cd /DATA/APPS/GDRIVE/_June_2019 && ./grab2desk.sh'
 
 **resulting in**
 
-![The Rocky Mountains from my window  in my shell](https://github.com/mutanthost/DLINK_SCREEN/blob/master/image-20190603_122636.jpg)
+![The Rocky Mountains from my window  in my shell](https://github.com/mutanthost/DLINK_SCREEN/blob/master/look.jpg)
 
