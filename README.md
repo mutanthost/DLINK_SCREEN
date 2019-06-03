@@ -19,6 +19,8 @@ You can also set this image as your background by setting the profile in iTerm.
 For ***'anywhere'*** use, run this from a **GDRIVE** synced directory, and alias this within your ~/.bashrc
 
 alias look='cd /DATA/APPS/GDRIVE/_June_2019 && ./grab2desk.sh'
-resulting in
 
+**resulting in**
+
+![The Rocky Mountains from my window  in my shell](https://github.com/mutanthost/DLINK_SCREEN/blob/master/image-20190603_122636.jpg)
 
