@@ -19,3 +19,6 @@ You can also set this image as your background by setting the profile in iTerm.
 For ***'anywhere'*** use, run this from a **GDRIVE** synced directory, and alias this within your ~/.bashrc
 
 alias look='cd /DATA/APPS/GDRIVE/_June_2019 && ./grab2desk.sh'
+resulting in
+
+
