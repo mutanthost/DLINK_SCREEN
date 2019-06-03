@@ -1,0 +1,5 @@
+TODO: secure ports 8080 and 8889
+http://IPADDRESS:PORT_NUMBER/image/jpeg.cgi
+http://IPADDRESS:PORT_NUMBER/video/mjpg.cgi
+rtsp://IPADDRESS:PORT_NUMBER//live1.sdp
+rtsp://IPADDRESS:PORT_NUMBER/play1.sdp

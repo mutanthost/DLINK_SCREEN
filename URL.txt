@@ -1,0 +1,9 @@
+You can find more info on your specific device at
+
+https://www.ispyconnect.com/man.aspx?n=d-link&page=1#
+
+wget http://USERNAME:PASSWORD@YOURIP:8889/image.jpg
+
+http://USERNAME:PASSWORD@YOURIP:8889/VIDEO.CGI
+
+wget http://USERNAME:PASSWORD@YOURIP:8889/VIDEO.CGI
