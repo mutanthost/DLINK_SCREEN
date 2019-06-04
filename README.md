@@ -24,3 +24,4 @@ alias look='cd /DATA/APPS/GDRIVE/_June_2019 && ./grab2desk.sh'
 
 ![The Rocky Mountains from my window  in my shell](https://github.com/mutanthost/DLINK_SCREEN/blob/master/look.jpg)
 
+9. I figured I might as well just include my .screenrc for extra portability, so it is included as well. 
