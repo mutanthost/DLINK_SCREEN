@@ -1,0 +1,53 @@
+bindkey "\033OP" select 0
+bindkey "\033OQ" select 1
+bindkey "\033OR" select 2
+bindkey "\033OS" select 3
+bindkey "\033[15~" select 4
+bindkey "\033[16~" select 5
+bindkey "\033[17~" select 6
+bindkey "\033[18~" select 7
+bindkey "\033[19~" select 8
+
+# Turn off that annoying start up message
+startup_message off
+#
+# # Turn the even more annoying whole-screen-flash-on-tab-complete "feature"
+vbell off
+echo "Note for nested screen sessions, use Ctrl+a a to send commands to the inner screen"
+echo "and the standard Ctrl+a to send commands to the outer screen."
+
+echo "Key	Action	Notes"
+echo "Ctrl+a c	new window"	 
+echo "Ctrl+a n	next window	I bind F12 to this"
+echo "Ctrl+a p	previous window	I bind F11 to this"
+echo "Ctrl+a "	select window from list	I have window list in the status line"
+echo "Ctrl+a Ctrl+a	previous window viewed"	 
+ 	 	 
+echo "Ctrl+a S	split terminal horizontally into regions	Ctrl+a c to create new window there"
+echo "Ctrl+a |	split terminal vertically into regions	Requires screen > = 4.1"
+echo "Ctrl+a :  resize	resize region"	 
+echo "Ctrl+a :  fit	fit screen size to new terminal size	Ctrl+a F is the same. Do after resizing xterm"
+echo "Ctrl+a :remove	remove region	Ctrl+a X is the same"
+echo "Ctrl+a tab	Move to next region"	 
+ 	 	 
+echo "Ctrl+a d	detach screen from terminal	Start screen with -r option to reattach"
+echo "Ctrl+a A	set window title"	 
+echo "Ctrl+a x	lock session	Enter user password to unlock"
+echo "Ctrl+a [	enter scrollback/copy mode	Enter to start and end copy region. Ctrl+a ] to leave this mode"
+echo "Ctrl+a ]	paste buffer	Supports pasting between windows"
+echo "Ctrl+a >	write paste buffer to file	useful for copying between screens"
+echo "Ctrl+a <	read paste buffer from file	useful for pasting between screens"
+ 	 	 
+echo "Ctrl+a ?	show key bindings/command names	Note unbound commands only in man page"
+echo "Ctrl+a :	goto screen command prompt	up shows last command entered"
+#
+sleep 2
+# # I use control+a for beginning-of-line, this remaps it to the tick/tilda key
+# escape ``
+#
+# # Bind tick+e to show the tick character since tick+tick is too convenience to toggle windows
+# escape `e
+#
+# # Window list at the bottom. hostname, centered tabs and redmarked active windows:
+hardstatus alwayslastline
+hardstatus string '%{= kG}[ %{G}%H %{g}][%= %{= kw}%?%-Lw%?%{r}(%{W}%n*%f%t%?(%u)%?%{r})%{w}%?%+Lw%?%?%= %{g}][%{B} %d/%m %{W}%c %{g}]'
